@@ -1,0 +1,21 @@
+2024-02-17 00:42:08.320 -03:00 [INF] Teste
+2024-02-17 00:50:22.924 -03:00 [INF] User profile is available. Using 'C:\Users\guilh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-17 00:50:23.052 -03:00 [INF] Now listening on: http://localhost:5126
+2024-02-17 00:50:23.055 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-17 00:50:23.055 -03:00 [INF] Hosting environment: Development
+2024-02-17 00:50:23.055 -03:00 [INF] Content root path: D:\guilh\Samples\.NET\Logs\Logs.Serilog
+2024-02-17 00:50:23.201 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5126/ - null null
+2024-02-17 00:50:23.213 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-17 00:50:23.227 -03:00 [INF] Executing endpoint 'Logs.Serilog.Controllers.HomeController.Index (Logs.Serilog)'
+2024-02-17 00:50:23.267 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Logs.Serilog.Controllers.HomeController (Logs.Serilog).
+2024-02-17 00:50:23.275 -03:00 [INF] Executing action method Logs.Serilog.Controllers.HomeController.Index (Logs.Serilog) - Validation state: "Valid"
+2024-02-17 00:50:23.277 -03:00 [INF] Test log
+2024-02-17 00:50:23.285 -03:00 [INF] Executed action method Logs.Serilog.Controllers.HomeController.Index (Logs.Serilog), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5595ms.
+2024-02-17 00:50:23.307 -03:00 [INF] Executing ViewResult, running view Index.
+2024-02-17 00:50:23.420 -03:00 [INF] Executed ViewResult - view Index executed in 125.4443ms.
+2024-02-17 00:50:23.422 -03:00 [INF] Executed action Logs.Serilog.Controllers.HomeController.Index (Logs.Serilog) in 154.6218ms
+2024-02-17 00:50:23.422 -03:00 [INF] Executed endpoint 'Logs.Serilog.Controllers.HomeController.Index (Logs.Serilog)'
+2024-02-17 00:50:23.427 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5126/ - 200 null text/html; charset=utf-8 228.701ms
+2024-02-17 00:50:23.458 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5126/Logs.Serilog.styles.css?v=ApGgO_EGZ0v0EdQFT9tIm4j_vYzb8kUtu1JCv_Vp-8w - null null
+2024-02-17 00:50:23.466 -03:00 [INF] The file /Logs.Serilog.styles.css was not modified
+2024-02-17 00:50:23.467 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5126/Logs.Serilog.styles.css?v=ApGgO_EGZ0v0EdQFT9tIm4j_vYzb8kUtu1JCv_Vp-8w - 304 null text/css 8.6166ms
